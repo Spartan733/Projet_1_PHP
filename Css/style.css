@@ -30,7 +30,7 @@ body{
         button{
             background-color: #7C3AED;
             border: none;
-            border-radius: 10%;
+            border-radius: 10px;
             width: 100px;
             padding: 10px;
             font-size: 15px;
@@ -44,10 +44,12 @@ body{
     display: flex;
     flex-direction: column;
 
-    h2{
-        font-family: 'Chelsea Market';
+    .bvn{
         margin: auto;
-        font-size: 50px;
+        margin-top: 30px;
+        font-size: 30px;
+        color: red;
+        font-weight: 600;
     }
 
     a{
@@ -59,5 +61,19 @@ body{
         text-decoration: none;
         color: black;
         font-size: 20px;
+    }
+}
+
+/* ----------- Deconnexion -------*/
+
+body{
+    .deco{
+        margin: auto;
+        margin-top: 30px;
+        font-size: 50px;
+        color: black;
+        background-color: #7C3AED;
+        padding: 15px;
+        border-radius: 20px;
     }
 }
